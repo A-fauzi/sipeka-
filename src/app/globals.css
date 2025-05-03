@@ -9,9 +9,14 @@
 }
 
 
-  body {
-    scroll-behavior: smooth;
-  }
+html {
+  overflow-x: hidden; /* Pastikan tidak ada scroll horizontal */
+  width: 100vw;      /* Lock lebar viewport */
+}
+body {
+  width: 100%;
+  overflow-x: clip;   /* Lebih modern dari overflow-x: hidden */
+}
 
 @layer base {
   :root {

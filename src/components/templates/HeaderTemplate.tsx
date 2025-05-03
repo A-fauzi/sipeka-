@@ -384,9 +384,8 @@ export default function Header() {
               <Image 
                     src="/img/logo.png" 
                     alt="SiPEKA+ Logo" 
-                    width={120} 
-                    height={120} 
-                    className="transition-transform duration-300 group-hover:scale-110" 
+                    width={64} 
+                    height={64} 
                   />
             </Link>
 
