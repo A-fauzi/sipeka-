@@ -33,7 +33,6 @@ import {
   NavigationMenuContent,
   NavigationMenuTrigger
 } from '@/components/ui/navigation-menu'
-import { Avatar, AvatarFallback, AvatarImage } from '@/components/ui/avatar'
 import { 
   DropdownMenu, 
   DropdownMenuContent, 
@@ -224,7 +223,7 @@ export default function Header() {
               
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button 
+                  {/*<Button 
                     variant="outline" 
                     size="sm" 
                     className="ml-2 rounded-full border border-border/30 hover:bg-accent hover:border-border/50 transition-all duration-200"
@@ -232,7 +231,7 @@ export default function Header() {
                     <User size={16} className="mr-1 text-primary-blue" />
                     <span className="text-sm">Masuk</span>
                     <ChevronRight size={14} className="ml-1 opacity-70" />
-                  </Button>
+                  </Button>*/}
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-56 mt-1 border-border/30">
                   <DropdownMenuItem asChild>
@@ -518,7 +517,7 @@ export default function Header() {
               
               <DropdownMenu>
                 <DropdownMenuTrigger asChild>
-                  <Button 
+                  {/*<Button 
                     variant="outline" 
                     size="sm" 
                     className={cn(
@@ -534,7 +533,7 @@ export default function Header() {
                     </Avatar>
                     <span className="text-sm">Masuk</span>
                     <ChevronRight size={14} className="ml-1 opacity-70" />
-                  </Button>
+                  </Button>*/}
                 </DropdownMenuTrigger>
                 <DropdownMenuContent align="end" className="w-60 mt-1 border-border/30 bg-background/95 backdrop-blur-xl p-2">
                   <DropdownMenuLabel className="px-2 py-1.5 text-xs font-normal text-muted-foreground">
